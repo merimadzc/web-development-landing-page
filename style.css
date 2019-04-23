@@ -169,3 +169,27 @@ button a:hover {
 		width: 60vw;
 	}
 }
+@media screen and (max-height: 400px) {
+	section {
+		position: relative;
+		margin-top: 30%;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	h3 {
+		font-size: 1em;
+	}
+}
+@media screen and (max-height: 590px) {
+	section {
+		position: relative;
+		margin-top: 40%;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.2em;
+	}
+}
